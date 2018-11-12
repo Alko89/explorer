@@ -6,6 +6,7 @@ html
     link(rel='stylesheet', href='/vendor/jqplot/jquery.jqplot.css')
     link(rel='stylesheet', href='//cdn.datatables.net/plug-ins/725b2a2115b/integration/bootstrap/3/dataTables.bootstrap.css')
     link(rel='stylesheet', href='//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css')
+    link(rel='stylesheet', href='/vendor/CryptoFont-0.1.1/css/cryptofont.min.css')
     link(rel='stylesheet', href='/stylesheets/style.css')
     script(src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js')
     script(src='//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js')
@@ -113,7 +114,7 @@ html
             if settings.display.richlist == true
               li#richlist
                 a.navbar-link(href='/richlist')
-                  span.fa.fa-btc
+                  span.cf.cf-pivx
                   span.menu-text #{settings.locale.menu_richlist}
             if settings.display.markets == true
               li#markets
